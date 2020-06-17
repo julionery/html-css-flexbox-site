@@ -139,7 +139,7 @@ nav a:hover {
 }
 
 .banner_schedule {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -147,14 +147,296 @@ nav a:hover {
 .banner_schedule div {
     display: flex;
     font-size: 14px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .news_posted_at {
+    background-color: #2b4c99;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments {
+    background-color: #39aae1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_thumbnail {
+    padding-top: 30px;
+}
+
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 23px;
+}
+
+article .news_resume {
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.departments_data {
+    width: 150px;
+    height: 150px;
+    background-color: #39aae1;
+}
+
+aside a {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+aside .appointment_icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+aside .departments_content {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.banner_schedule div:not(:first-child) {
-    padding-top: 10px;
+aside .departments_data {
+    margin-bottom: 30px;
 }
 
-.banner_schedule_border {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+aside .appointment_title {
+    font-size: 14px;
+    color: #5c5c5c;
+    padding-bottom: 30px;
+    line-height: 20px;
+    border-bottom: 2px solid #e1e1e1;
+}
+
+aside .appointment_detail {
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e1e1e1;
+    align-items: center;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.footer_menu_title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.footer_menu_text {
+    font-size: 12px;
+}
+
+.footer_menu_text i {
+    margin-left: 6px;
+}
+
+.footer_area {
+    display: flex;
+}
+
+.footer_areaitem {
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+footer .widget_title_text {
+    color: #FFFFFF;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #707070;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.footer_copy a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.widget_body_medicenter {
+    font-size: 14px;
+    color: #707070;
+}
+
+.widget_body_medicenter .fa1 {
+    margin-bottom: 30px;
+}
+
+.widget_body_medicenter .fa2 {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.widget_body_medicenter .fa2 div {
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+.widget_body_medicenter .fa3 {
+    display: flex;
+}
+
+.widget_body_medicenter a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer_icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    margin-right: 8px;
+    border-radius: 3px;
+    color: #707070;
+}
+
+.widget_body_post {
+    display: flex;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.footer_post_icon {
+    margin-right: 12px;
+}
+
+.post_date {
+    color: #0384ce;
+}
+
+.widget_body_tweets {
+    display: flex;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    color: #707070;
+}
+
+.widget_body_tweets a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
