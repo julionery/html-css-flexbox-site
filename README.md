@@ -10,6 +10,10 @@
 
 ![](https://github.com/julionery/docs/blob/master/geral/medcenter.png?raw=true)
 
+ <h3 align="center">
+<img alt="Mobile" title="Mobile" width="300px" src="https://github.com/julionery/docs/blob/master/geral/layout-flexbox-mobile.gif?raw=true">
+</h3>
+
 ## :link: Como contribuir
 
 - Faça um Fork do repositório,
