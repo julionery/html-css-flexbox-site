@@ -3,7 +3,7 @@
 </p>
 
 ### :globe_with_meridians: Demonstração
-- [Link para o site](julio-nery-flexbox-studies.netlify.app)
+- [Link para o site](https://julio-nery-flexbox-studies.netlify.app/)
 
 ### :rocket: Tecnologias
 - HTML
